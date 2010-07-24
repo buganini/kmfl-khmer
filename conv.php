@@ -1,11 +1,11 @@
 <?php
 $s=file_get_contents($argv[1]);
-$s=str_replace("\r\n","\n",rtrim($s));
+$s=str_replace("\r\n","\n",$s);
 $a=explode("\n",$s);
 $b=array();
 foreach($a as $v){
 	if($v[0]=='#') continue;
-	$b[]=explode("\t",rtrim($v));
+	$b[]=explode("\t",$v);
 }
 $a=$b;
 function quot($s){

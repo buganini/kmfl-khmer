@@ -1,6 +1,5 @@
-	K_1	K_2	K_3	K_4	K_5	K_6	K_7	K_8	K_9	K_0	K_HYPHEN	K_EQUAL	K_Q	K_W	K_E	K_R	K_T	K_Y	K_U	K_I	K_O	K_P	K_LBRKT	K_RBRKT	K_BKSLASH	K_A	K_S	K_D	K_F	K_G	K_H	K_J	K_K	K_L	K_COLON	K_QUOTE	K_Z	K_X	K_C	K_V	K_B	K_N	K_M	K_COMMA	K_PERIOD	K_SLASH
-#	1	2	3	4	5	6	7	8	9	0	-	=	q	w	e	r	t	y	u	i	o	p	[	]	\	a	s	d	f	g	h	j	k	l	;	'	z	x	c	v	b	n	m	,	.	/
-	១	២	៣	៤	៥	៦	៧	៨	៩	០	-	+	ឆ	ឹ	 េ	រ	ត	យ	ុ	 ិ	ឲ្យ	ផ	 ៀ	 ឿ	 ្ញ	ា	ស	ដ	ឋ	ង	ហ	ញ	ក	ល	:	'	ថ	ខ	ច	វ	ប	ន	ម	្ក	។	?
-SHIFT 	!	្	ឫ	៛	ឭ		័	៏	៌	៊	៑	x	ឈ	ឺ	ែ	្រ	ទ	ួ	ូ	ី	ឱ	ភ	 ៀ	 ឿ	្ប	ៅ	្ស	ឌ	ឍ	អ	ះ	ពា	គ	ឡ	បា	"	ធ	ឃ	ជ	្វ	ព	ណ	ំ	្គ	ៗ	៓
-ALT 	្ខ	“	”	ឦ		រ្តិ៍	វ៉	៍	(	)	ិ៍	=	្ឆ	ឹ	ៃ	្រ	្ត	្យ	ុ	 ិ	ឧ	 ្ផ	ឥ	ឮ	 ្ព	 ្ង	ឬ	 ្ឋ						្ល		'	្ថ		្ច			្ន	្ម	.		្ឍ
-SHIFT ALT 	្ឃ		%									៖	្ឈ	ឺ	ឯ		្ទ	ួ	ូ	ី	ឪ	 ្ភ				 ្អ	៕	 ្ឌ						្ហ		"	 ្ធ					្ណ		,		
+	K_BKQUOTE	K_1	K_2	K_3	K_4	K_5	K_6	K_7	K_8	K_9	K_0	K_HYPHEN	K_EQUAL	K_Q	K_W	K_E	K_R	K_T	K_Y	K_U	K_I	K_O	K_P	K_LBRKT	K_RBRKT	K_BKSLASH	K_A	K_S	K_D	K_F	K_G	K_H	K_J	K_K	K_L	K_COLON	K_QUOTE	K_Z	K_X	K_C	K_V	K_B	K_N	K_M	K_COMMA	K_PERIOD	K_SLASH
+#	`	1	2	3	4	5	6	7	8	9	0	-	=	q	w	e	r	t	y	u	i	o	p	[	]	\	a	s	d	f	g	h	j	k	l	;	'	z	x	c	v	b	n	m	,	.	/
+	«	១	២	៣	៤	៥	៦	៧	៨	៩	០	ឥ	ឲ	ឆ	ឹ	 េ	រ	ត	យ	ុ	 ិ	ោ	ផ	 ៀ	ឪ	ឮ	ា	ស	ដ	ថ	ង	ហ	្	ក	ល	ើ	់	ឋ	ខ	ច	វ	ប	ន	ម	ុំ	។	៊
+SHIFT 	»	!	ៗ	"	៛	%	៍	័	៏	(	)	៌	ឱ	ឈ	ឺ	ែ	ឬ	ទ	ួ	ូ	ី	ៅ	ភ	 ឿ	ឧ	ឭ	ាំ	ៃ	ឌ	ធ	អ	ះ	ញ	គ	ឡ	ោះ	៉	ឍ	ឃ	ជ	េះ	ព	ណ	ំ	ុះ	៕	?
+ALT 	U+200D	U+200C 	@	៑	$	€	៙	៚	*	{	}	x	៎			ឯ	ឫ				ឦ		ឰ	ឩ	ឳ	\										៖	ៈ								,	.	/
