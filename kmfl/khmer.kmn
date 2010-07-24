@@ -1,9 +1,7 @@
-VERSION 7.0
+﻿VERSION 7.0
 NAME "Khmer"
 store(&BITMAP) 'khmer.bmp'
 store(&COPYRIGHT) 'Copyright (C) 2010 buganini@gmail.com'
-
-store(&mnemoniclayout) '1'
 
 begin Unicode > use(Main)
 
