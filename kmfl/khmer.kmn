@@ -28,7 +28,7 @@ group( Main ) using keys
 + [K_T] > "ត"
 + [K_Y] > "យ"
 + [K_U] > "ុ"
-+ [K_I] > " ិ"
++ [K_I] > "ិ"
 + [K_O] > "ោ"
 + [K_P] > "ផ"
 + [K_LBRKT] > "ៀ"
