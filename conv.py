@@ -1,6 +1,6 @@
 import sys
 
-mapping = {
+keymap = {
 	'`':'K_BKQUOTE',
 	'1':'K_1',
 	'2':'K_2',
@@ -134,11 +134,11 @@ for r in table:
 		elif r[0]=="SHIFT":
 			if raw in shiftmap:
 				k = quote(shiftmap[raw])
-			elif raw in mapping:
-				k = "[SHIFT {0}]".format(mapping[raw])
+			elif raw in keymap:
+				k = "[SHIFT {0}]".format(keymap[raw])
 			else:
 				raise Exception()
 		else:
-			k = "[{0} {1}]".format(r[0], mapping[raw])
+			k = "[{0} {1}]".format(r[0], keymap[raw])
 
 		print("+ {0} > {1} dk(1)".format(k, quote(v)))
