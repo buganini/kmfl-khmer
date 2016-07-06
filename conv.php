@@ -46,7 +46,8 @@ $map=array(
 'm'=>'K_M',
 ','=>'K_COMMA',
 '.'=>'K_PERIOD',
-'/'=>'K_SLASH'
+'/'=>'K_SLASH',
+'U+0020'=>'K_SPACE'
 );
 
 $shiftmap=array(
@@ -121,13 +122,12 @@ for($i=1;$i<count($a);++$i){
 		if(empty($a[$i][0])){
 			$key=quot($a[0][$j]);
 		}elseif($a[$i][0]=='SHIFT'){
-			$key=quot($shiftmap[$a[0][$j]]);
-			if($key==''){
-				if(!empty($map[$a[0][$j]])){
-					$key='[SHIFT '.$map[$a[0][$j]].']';
-				}else{
-					die($map[$a[0][$j]]);
-				}
+			if(!empty($shiftmap[$a[0][$j]])){
+				$key=quot($shiftmap[$a[0][$j]]);
+			}elseif(!empty($map[$a[0][$j]])){
+				$key='[SHIFT '.$map[$a[0][$j]].']';
+			}else{
+				die($map[$a[0][$j]]);
 			}
 		}else{
 			$key='['.$a[$i][0].' '.$map[$a[0][$j]].']';
