@@ -105,7 +105,7 @@ group( Main ) using keys
 + "?" > "?" dk(1)
 + [SHIFT K_SPACE] > U+0020 dk(1)
 + [CTRL ALT K_BKQUOTE] > U+200D dk(1)
-+ [CTRL ALT K_1] > U+200C  dk(1)
++ [CTRL ALT K_1] > U+200C dk(1)
 + [CTRL ALT K_2] > "@" dk(1)
 + [CTRL ALT K_3] > "៑" dk(1)
 + [CTRL ALT K_4] > "$" dk(1)
